@@ -3,19 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --ff-kr: 'Noto Sans KR, sans-serif';
-  --ff-en: 'IBM Plex MONO, monospace';
+  --ff-kr: 'Noto Sans KR', sans-serif;
+  --ff-en: 'IBM Plex MONO', monospace;
   color-scheme: dark;
 }
 
-.App {
-  font-size: 30px;
-}
-
-.kr {
-  font-family: var(--ff-kr);
-}
-
-.en {
-  font-family: var(--ff-en);
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
 }
