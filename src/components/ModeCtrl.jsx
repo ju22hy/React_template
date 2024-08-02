@@ -1,12 +1,34 @@
 import { Moon, SunMedium } from 'lucide-react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import './navbar.css';
 
+// 버튼 클릭할 때 마다 다크/라이트 모드 변경
 const ModeCtrl = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
+
+  // console.log(document.documentElement);
+
+  useEffect(() => {
+    // console.log('ModeChange');
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+      document.documentElement.style.setProperty('color-scheme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      document.documentElement.style.setProperty('color-scheme', 'light');
+    }
+  }, [darkMode]);
 
   return (
-    <button onClick={() => setDarkMode(!darkMode)}>
-      {darkMode ? <SunMedium /> : <Moon />}
+    <button
+      className="mode_btn dark:bg-neutral-300 dark:text-neutral-950 bg-neutral-950 text-neutral-300 p-1 ml-2"
+      onClick={() => setDarkMode(!darkMode)}
+    >
+      {darkMode ? (
+        <SunMedium className="w-5 h-5" />
+      ) : (
+        <Moon className="w-5 h-5" />
+      )}
     </button>
   );
 };

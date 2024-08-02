@@ -4,12 +4,31 @@
 
 :root {
   --ff-kr: 'Noto Sans KR', sans-serif;
-  --ff-en: 'IBM Plex MONO', monospace;
+  --ff-en: 'IBM Plex Mono', monospace;
   color-scheme: dark;
+  /* color-scheme: light; */
 }
 
 .container {
   margin: auto;
   padding: 1rem;
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* Footer Section */
+/* footer .container {
+  /* display: grid; */
+/* grid-template-columns: repeat(3, 1fr); */
+/* grid-template-columns: 1fr 1fr 1fr; } */
+
+.vid {
+  width: 80%;
+  box-shadow: 0 0 5px rgb(99 102 241);
+  border-radius: 0.5rem;
 }
