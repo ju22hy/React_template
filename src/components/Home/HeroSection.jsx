@@ -13,7 +13,7 @@ const HeroSection = () => {
           for Developers
         </span>
       </h1>
-      <p className=" text-center text-neutral-400 max-w-4xl font-customFontKr lg:text-sm mb:text-xs">
+      <p className=" text-center text-neutral-400 max-w-4xl font-customFontKr lg:text-base mb:text-sm">
         이름과, 하나의 벌써 토끼, 새겨지는 별이 그리고 것은 없이 있습니다. 했던
         위에 아름다운 덮어 밤을 그러나 이름과 까닭이요, 봅니다. 이름자를 어머니,
         위에 별 나의 것은 계절이 버리었습니다. 나는 써 하나에 그리고 동경과
