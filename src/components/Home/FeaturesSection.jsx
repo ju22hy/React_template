@@ -14,6 +14,7 @@ const FeaturesSection = () => {
             Your Code
           </span>
         </h2>
+
         <div className="flex flex-wrap mt-10 lg:mt-20">
           {features.map((item, idx) => (
             <div key={idx} className="w-full lg:w-1/3 sm:w-1/2">
@@ -25,7 +26,7 @@ const FeaturesSection = () => {
                   <h5 className="mt-1 mb-5 text-xl font-customFontKr">
                     {item.text}
                   </h5>
-                  <p className="text-base p-2 mb-20 text-neutral-500 font-customFontEn">
+                  <p className="text-base mb-20 text-neutral-500 font-customFontEn">
                     {item.description}
                   </p>
                 </div>

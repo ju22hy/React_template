@@ -12,6 +12,13 @@ import user4 from '../assets/profile-pictures/user4.jpg';
 import user5 from '../assets/profile-pictures/user5.jpg';
 import user6 from '../assets/profile-pictures/user6.jpg';
 
+import code1 from '../assets/codeimage/code1.jpg';
+import code2 from '../assets/codeimage/code2.jpg';
+import code3 from '../assets/codeimage/code3.jpg';
+import code4 from '../assets/codeimage/code4.jpg';
+import code5 from '../assets/codeimage/code5.jpg';
+import code6 from '../assets/codeimage/code6.jpg';
+
 export const navItems = [
   { label: 'Home', to: '/' },
   { label: 'Features', to: '/features' },
@@ -71,6 +78,7 @@ export const features = [
     // Drag-and-Drop Interface
     description:
       'Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.',
+    image: code2,
   },
   {
     icon: <Fingerprint />,
@@ -78,6 +86,7 @@ export const features = [
     // Multi-Platform Compatibility
     description:
       'Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.',
+    image: code3,
   },
   {
     icon: <ShieldHalf />,
@@ -85,6 +94,7 @@ export const features = [
     // Built-in Templates
     description:
       'Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.',
+    image: code4,
   },
   {
     icon: <BatteryCharging />,
@@ -92,6 +102,7 @@ export const features = [
     // Real-Time Preview
     description:
       'Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.',
+    image: code6,
   },
   {
     icon: <PlugZap />,
@@ -99,6 +110,7 @@ export const features = [
     // Collaboration Tools
     description:
       'Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.',
+    image: code1,
   },
   {
     icon: <GlobeLock />,
@@ -106,24 +118,25 @@ export const features = [
     // Analytics Dashboard
     description:
       'Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.',
+    image: code5,
   },
 ];
 
 export const checklistItems = [
   {
-    title: '매우 쉬운 코드협업',
+    title: '손쉬운 코딩 협업',
     // Code merge made easy
     description:
       'Track the performance of your VR apps and gain insights into user behavior.',
   },
   {
-    title: '걱정없는 코드 리뷰',
+    title: '효과적인 코드리뷰',
     // Review code without worry
     description:
       'Track the performance of your VR apps and gain insights into user behavior.',
   },
   {
-    title: 'AI 도움을 통한 시간 절약',
+    title: 'AI 기술을 통한 시간 절약',
     // AI Assistance to reduce time
     description:
       'Track the performance of your VR apps and gain insights into user behavior.',

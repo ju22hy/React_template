@@ -1,7 +1,7 @@
 import React from 'react';
 import { pricingOptions, subscribeLinks } from '../../constants/data';
 import { CheckCircle2 } from 'lucide-react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Pricing = () => {
   return (
@@ -17,7 +17,7 @@ const Pricing = () => {
               <p className="text-4xl font-customFontEn mb-8">
                 {option.title}
                 {option.title === 'Pro' && (
-                  <span className="bg-gradient-to-r from-rose-400 to-rose-500 text-transparent bg-clip-text text-base mb-4 ml-2 tracking-tighter font-semibold opacity-70">
+                  <span className="bg-gradient-to-r from-rose-400 to-rose-500 text-transparent bg-clip-text text-lg mb-4 ml-2 tracking-tighter font-semibold opacity-80">
                     (Most Popular)
                   </span>
                 )}

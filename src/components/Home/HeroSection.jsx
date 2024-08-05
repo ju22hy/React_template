@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className="flex flex-col items-center mt-8 lg:mt-20 gap-10">
       <h1 className="text-4xl lg:text-7xl sm:text-6xl font-customFontEn tracking-tight text-neutral-700 dark:text-neutral-300 font-medium text-center">
         AceDot Build Tools <br />
-        <span className="bg-gradient-to-r from-indigo-300 to-indigo-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-indigo-500 to-indigo-800 text-transparent bg-clip-text">
           for Developers
         </span>
       </h1>
